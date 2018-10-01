@@ -1,4 +1,4 @@
-package br.com.jhonicosta.aprendaingles;
+package br.com.jhonicosta.aprendaingles.activitys;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -13,6 +13,7 @@ import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItem;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
 
+import br.com.jhonicosta.aprendaingles.R;
 import br.com.jhonicosta.aprendaingles.fragments.BichosFragment;
 import br.com.jhonicosta.aprendaingles.fragments.NumerosFragment;
 import br.com.jhonicosta.aprendaingles.fragments.VogaisFragment;
