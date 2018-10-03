@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activitys.MainActivity">
+    tools:context=".activities.MainActivity">
 
     <com.ogaclejapan.smarttablayout.SmartTabLayout
         android:id="@+id/viewpagertab"
@@ -21,7 +21,7 @@
         app:stl_defaultTabTextMinWidth="0dp"
         app:stl_defaultTabTextSize="12sp"
         app:stl_distributeEvenly="true"
-        app:stl_dividerColor="@color/colorAccent"
+        app:stl_dividerColor="@android:color/transparent"
         app:stl_dividerThickness="1dp"
         app:stl_drawDecorationAfterTab="false"
         app:stl_indicatorAlwaysInCenter="false"

@@ -6,12 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import br.com.jhonicosta.aprendaingles.R;
 
 public class BichosFragment extends Fragment {
 
-    private Button cao, gato, leao, macaco, ovelha, vaca;
+    private ImageButton cao, gato, leao, macaco, ovelha, vaca;
 
     public BichosFragment() {
     }

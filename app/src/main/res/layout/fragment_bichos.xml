@@ -8,67 +8,74 @@
     tools:context=".fragments.BichosFragment"
     tools:layout_editor_absoluteY="81dp">
 
-    <Button
+    <ImageButton
         android:id="@+id/cao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:background="@drawable/cao"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cao"
         app:layout_constraintBottom_toTopOf="@+id/leao"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/gato"
-        android:layout_width="115dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/gato"
+        android:background="@android:color/transparent"
+        android:src="@drawable/gato"
         app:layout_constraintBottom_toTopOf="@+id/macaco"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/macaco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/macaco"
+        android:background="@android:color/transparent"
+        android:src="@drawable/macaco"
         app:layout_constraintBottom_toTopOf="@+id/vaca"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/gato" />
 
-    <Button
+    <ImageButton
         android:id="@+id/leao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:background="@drawable/leao"
+        android:background="@android:color/transparent"
+        android:src="@drawable/leao"
         app:layout_constraintBottom_toTopOf="@+id/ovelha"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cao" />
 
-    <Button
+    <ImageButton
         android:id="@+id/ovelha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:background="@drawable/ovelha"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ovelha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/leao" />
 
-    <Button
+    <ImageButton
         android:id="@+id/vaca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/vaca"
+        android:background="@android:color/transparent"
+        android:src="@drawable/vaca"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline"
@@ -80,4 +87,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
+
+    <ImageButton
+        android:id="@+id/direitos"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/direitos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ovelha" />
+
 </android.support.constraint.ConstraintLayout>
