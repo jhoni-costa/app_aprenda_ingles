@@ -38,7 +38,6 @@ public class BichosFragment extends Fragment implements View.OnClickListener {
         ovelha.setOnClickListener(this);
         vaca.setOnClickListener(this);
 
-
         return view;
     }
 
@@ -63,8 +62,6 @@ public class BichosFragment extends Fragment implements View.OnClickListener {
             case R.id.vaca:
                 tocarSom(R.raw.cow);
                 break;
-            default:
-                break;
         }
     }
 
@@ -78,6 +75,14 @@ public class BichosFragment extends Fragment implements View.OnClickListener {
                     mediaPlayer.release();
                 }
             });
+        }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if (mediaPlayer != null) {
+            mediaPlayer.release();
         }
     }
 }
